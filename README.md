@@ -1,7 +1,7 @@
 # Problem-Solving
 ##### Problem-Solving
 
-# How to take input
+# How to take input in C#
 ```c#
             var t = int.Parse(Console.ReadLine());  //input size(tast size)
             
