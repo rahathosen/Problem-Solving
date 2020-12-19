@@ -1,17 +1,15 @@
 # Problem-Solving
 ##### Problem-Solving
 
-# How to take input in C#
-```c#
-            var t = int.Parse(Console.ReadLine());  //input size(tast size)
+# How to take input in Java
+```java
             
-            var nStr = Console.ReadLine();      //take the whole line input as a string
-            var splt_nStr = nStr.Split(' ');  //splitted the line stored in a string array
             
-            var nInt = new int[t];     // create input array will store integer
+        Scanner input = new Scanner(System.in);   
 
-            for (int i = 0; i < t; i++)
-            {
-                nInt[i] = int.Parse(splt_nStr[i]); //converted each elements of the string array to int
-            }
+        int IntValue = input.nextInt();
+        double dblValue = input.nextDouble();
+
+        input.nextLine();
+        String strValue = input.nextLine();
 ```
